@@ -39,7 +39,7 @@ const Footer = () => {
             </List>
           </Col>
         </Row>
-        <p>Copyright &copy; Salome Jaghmaidze</p>
+        <p>Copyright &copy; Tamar Khadilashvili</p>
       </Content>
     </Container>
   );

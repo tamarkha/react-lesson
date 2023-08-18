@@ -1,5 +1,5 @@
 [debug] [2022-05-30T17:22:59.832Z] ----------------------------------------------------------------------
-[debug] [2022-05-30T17:22:59.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tamar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-30T17:22:59.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\Desktop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
 [debug] [2022-05-30T17:22:59.836Z] CLI Version:   11.0.1
 [debug] [2022-05-30T17:22:59.836Z] Platform:      win32
 [debug] [2022-05-30T17:22:59.837Z] Node Version:  v16.14.0
@@ -38,7 +38,7 @@ You're about to initialize a Firebase project in this directory:
 [error] 
 [error] Error: Failed to create project. See firebase-debug.log for more info.
 [debug] [2022-05-30T17:24:23.130Z] ----------------------------------------------------------------------
-[debug] [2022-05-30T17:24:23.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tamar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
+[debug] [2022-05-30T17:24:23.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\Desktop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
 [debug] [2022-05-30T17:24:23.135Z] CLI Version:   11.0.1
 [debug] [2022-05-30T17:24:23.135Z] Platform:      win32
 [debug] [2022-05-30T17:24:23.135Z] Node Version:  v16.14.0
@@ -58,7 +58,7 @@ You're about to initialize a Firebase project in this directory:
 [error] 
 [error] Error: Failed to create project because there is already a project with ID services. Please try again with a unique project ID.
 [debug] [2022-05-30T17:24:56.630Z] ----------------------------------------------------------------------
-[debug] [2022-05-30T17:24:56.633Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tamar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
+[debug] [2022-05-30T17:24:56.633Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\Desktop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
 [debug] [2022-05-30T17:24:56.634Z] CLI Version:   11.0.1
 [debug] [2022-05-30T17:24:56.634Z] Platform:      win32
 [debug] [2022-05-30T17:24:56.634Z] Node Version:  v16.14.0
