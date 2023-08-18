@@ -1,5 +1,5 @@
 [debug] [2022-05-30T17:22:59.832Z] ----------------------------------------------------------------------
-[debug] [2022-05-30T17:22:59.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-30T17:22:59.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tamar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
 [debug] [2022-05-30T17:22:59.836Z] CLI Version:   11.0.1
 [debug] [2022-05-30T17:22:59.836Z] Platform:      win32
 [debug] [2022-05-30T17:22:59.837Z] Node Version:  v16.14.0
@@ -7,7 +7,7 @@
 [debug] [2022-05-30T17:22:59.839Z] ----------------------------------------------------------------------
 [debug] 
 [debug] [2022-05-30T17:22:59.858Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-05-30T17:22:59.858Z] > authorizing via signed-in user (s.jaghmaidze@gmail.com)
+[debug] [2022-05-30T17:22:59.858Z] > authorizing via signed-in user (tamar.khadilashvili15b@geolab.edu.ge)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -17,7 +17,7 @@
 
 You're about to initialize a Firebase project in this directory:
 
-  C:\Users\Salome\OneDrive\Desktop\front-end\სალომე ჯაღმაიძე - დავალებები\finalproject\project
+  C:\Users\tamar\OneDrive\Desktop\front-end-javascript\თამარ ხადილაშვილი - დავალებები\finalproject\project
 
 [info] 
 === Project Setup
@@ -38,7 +38,7 @@ You're about to initialize a Firebase project in this directory:
 [error] 
 [error] Error: Failed to create project. See firebase-debug.log for more info.
 [debug] [2022-05-30T17:24:23.130Z] ----------------------------------------------------------------------
-[debug] [2022-05-30T17:24:23.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
+[debug] [2022-05-30T17:24:23.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tamar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
 [debug] [2022-05-30T17:24:23.135Z] CLI Version:   11.0.1
 [debug] [2022-05-30T17:24:23.135Z] Platform:      win32
 [debug] [2022-05-30T17:24:23.135Z] Node Version:  v16.14.0
@@ -46,7 +46,7 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2022-05-30T17:24:23.138Z] ----------------------------------------------------------------------
 [debug] 
 [debug] [2022-05-30T17:24:23.152Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-05-30T17:24:23.153Z] > authorizing via signed-in user (s.jaghmaidze@gmail.com)
+[debug] [2022-05-30T17:24:23.153Z] > authorizing via signed-in user (tamar.khadilashvili15b@geolab.edu.ge)
 [debug] [2022-05-30T17:24:41.080Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
 [debug] [2022-05-30T17:24:41.080Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"services","name":"services"}
 [debug] [2022-05-30T17:24:42.143Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
@@ -58,7 +58,7 @@ You're about to initialize a Firebase project in this directory:
 [error] 
 [error] Error: Failed to create project because there is already a project with ID services. Please try again with a unique project ID.
 [debug] [2022-05-30T17:24:56.630Z] ----------------------------------------------------------------------
-[debug] [2022-05-30T17:24:56.633Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
+[debug] [2022-05-30T17:24:56.633Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tamar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
 [debug] [2022-05-30T17:24:56.634Z] CLI Version:   11.0.1
 [debug] [2022-05-30T17:24:56.634Z] Platform:      win32
 [debug] [2022-05-30T17:24:56.634Z] Node Version:  v16.14.0
@@ -66,7 +66,7 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2022-05-30T17:24:56.637Z] ----------------------------------------------------------------------
 [debug] 
 [debug] [2022-05-30T17:24:56.654Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-05-30T17:24:56.655Z] > authorizing via signed-in user (s.jaghmaidze@gmail.com)
+[debug] [2022-05-30T17:24:56.655Z] > authorizing via signed-in user (tamar.khadilashvili15b@geolab.edu.ge)
 [debug] [2022-05-30T17:25:08.328Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
 [debug] [2022-05-30T17:25:08.330Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"serviseList","name":"serviceImgs"}
 [debug] [2022-05-30T17:25:09.401Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
