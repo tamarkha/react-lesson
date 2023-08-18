@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  font-family: 'Sora',sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.Container {
+  width: 90%;
+  margin: 0 auto;
+}

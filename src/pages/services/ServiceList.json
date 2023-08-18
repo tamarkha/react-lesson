@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Candy Degustation",
+    "description": "You will be able to get a taste of different candies.",
+    "image": "https://images.unsplash.com/photo-1581700261299-b342aa7174cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Candy Tasting",
+    "description": "You will be able to get a taste of different candies.",
+    "image": "https://images.unsplash.com/photo-1517837125937-53bd402f49d6?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415"
+  }
+]

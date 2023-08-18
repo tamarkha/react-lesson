@@ -1,0 +1,79 @@
+[debug] [2022-05-30T17:22:59.832Z] ----------------------------------------------------------------------
+[debug] [2022-05-30T17:22:59.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-30T17:22:59.836Z] CLI Version:   11.0.1
+[debug] [2022-05-30T17:22:59.836Z] Platform:      win32
+[debug] [2022-05-30T17:22:59.837Z] Node Version:  v16.14.0
+[debug] [2022-05-30T17:22:59.839Z] Time:          Mon May 30 2022 21:22:59 GMT+0400 (Georgia Standard Time)
+[debug] [2022-05-30T17:22:59.839Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-30T17:22:59.858Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-30T17:22:59.858Z] > authorizing via signed-in user (s.jaghmaidze@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Salome\OneDrive\Desktop\front-end\სალომე ჯაღმაიძე - დავალებები\finalproject\project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-05-30T17:23:43.240Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-05-30T17:23:43.240Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"firebase projects:create","name":"service list"}
+[debug] [2022-05-30T17:23:44.355Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2022-05-30T17:23:44.355Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [Cannot create domain prefixed projects]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"Cannot create domain prefixed projects"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-05-30T17:23:44.360Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [Cannot create domain prefixed projects]
+    at module.exports (C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2022-05-30T17:24:23.130Z] ----------------------------------------------------------------------
+[debug] [2022-05-30T17:24:23.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
+[debug] [2022-05-30T17:24:23.135Z] CLI Version:   11.0.1
+[debug] [2022-05-30T17:24:23.135Z] Platform:      win32
+[debug] [2022-05-30T17:24:23.135Z] Node Version:  v16.14.0
+[debug] [2022-05-30T17:24:23.137Z] Time:          Mon May 30 2022 21:24:23 GMT+0400 (Georgia Standard Time)
+[debug] [2022-05-30T17:24:23.138Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-30T17:24:23.152Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-30T17:24:23.153Z] > authorizing via signed-in user (s.jaghmaidze@gmail.com)
+[debug] [2022-05-30T17:24:41.080Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-05-30T17:24:41.080Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"services","name":"services"}
+[debug] [2022-05-30T17:24:42.143Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2022-05-30T17:24:42.144Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2022-05-30T17:24:42.149Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID services. Please try again with a unique project ID.
+[debug] [2022-05-30T17:24:56.630Z] ----------------------------------------------------------------------
+[debug] [2022-05-30T17:24:56.633Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
+[debug] [2022-05-30T17:24:56.634Z] CLI Version:   11.0.1
+[debug] [2022-05-30T17:24:56.634Z] Platform:      win32
+[debug] [2022-05-30T17:24:56.634Z] Node Version:  v16.14.0
+[debug] [2022-05-30T17:24:56.636Z] Time:          Mon May 30 2022 21:24:56 GMT+0400 (Georgia Standard Time)
+[debug] [2022-05-30T17:24:56.637Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-30T17:24:56.654Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-30T17:24:56.655Z] > authorizing via signed-in user (s.jaghmaidze@gmail.com)
+[debug] [2022-05-30T17:25:08.328Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-05-30T17:25:08.330Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"serviseList","name":"serviceImgs"}
+[debug] [2022-05-30T17:25:09.401Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2022-05-30T17:25:09.401Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-05-30T17:25:09.408Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at module.exports (C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Salome\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
